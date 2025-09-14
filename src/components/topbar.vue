@@ -6,17 +6,13 @@
         <img src="./My Icons/search_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="">
       </div>
     </div>
-    <div @click="isVisible2 = !isVisible2" class="flex h-full w-[50%] pl-5 items-center justify-end">
-      <div class="flex relative pl-1 h-full w-[50px] md:w-[70px]  items-center ">
+    <div class="flex h-full w-[50%] pl-5 items-center justify-end">
+      <div @click="isVisible2 = !isVisible2" class="flex relative pl-1 h-full w-[50px] md:w-[70px]  items-center ">
         <img class="h-6" src="./My Icons/3602145.png" alt="">
         <div class="bg-red-600 top-2 right-3 md:right-8 h-5 w-5 flex absolute rounded-full justify-center items-center text-white text-[14px]">5</div>
       </div>
-      <div class="flex justify-center items-center">
-        <span @click="toggleDropdown" class="h-8 w-8 bg-gray-900 rounded-full flex justify-center items-center cursor-pointer font-bold text-[#e3e3e3]">JC</span>
-        <div class="flex px-3 flex-col items-start space-y-0">
-          <span class="font-semibold pb-0">Jones CEO</span>
-          <span class="text-sm pt-0">CEO</span>
-        </div>
+      <div  @click="toggleDropdown" class="flex justify-center items-center">
+        <span class="h-8 w-8 bg-gray-900 rounded-full flex justify-center items-center cursor-pointer font-bold text-[#e3e3e3]">JC</span>
       </div>
       <div v-if="isVisible" class="flex border flex-col bg-white absolute py-3 rounded-md top-[60px] w-[200px] shadow-2xl right-5 justify-start items-center">
         <div class="flex justify-start items-center px-3 pb-2 font-semibold text-black border w-full border-x-0 border-t-0">My Account</div>
@@ -34,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div v-if="isVisible2" class="flex absolute border rounded-md bg-white top-[55px] right-[22px] p-2 max-h-[650px] overflow-y-hidden hover:overflow-y-scroll shadow-2xl flex-col w-[450px]">
+      <div v-if="isVisible2" class="flex absolute border rounded-md bg-white top-[55px] right-[11px] sm:right-[25px] p-2 max-h-[650px] overflow-y-hidden hover:overflow-y-scroll shadow-2xl flex-col max-w-[450px]">
         <div class="flex p-3  items-center justify-start font-semibold text-black ">Notifications</div>
         
         <div class="flex flex-col w-full space-y-3">

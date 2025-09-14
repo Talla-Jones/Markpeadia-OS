@@ -1,6 +1,6 @@
 <template>
   <div class="h-full top-0 left-0 bg-blue-50 flex fixed justify-center items-center w-full">
-    <form @submit.prevent class="bg-white border px-6 border-gray-300 shadow-xl w-[450px] flex flex-col h-[87%] items-center rounded-[10px]">
+    <form @submit.prevent class="bg-white border px-6 py-7 border-gray-300 shadow-xl flex flex-col h-[87%] items-center rounded-md">
         <div class=" bg-slate-50 mt-7 mb-3 rounded-full w-[53px] h-[53px] flex justify-center items-center">
             <img class="w-[32px]" src="./My Icons/4982864.png" alt="">
         </div>
