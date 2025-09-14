@@ -24,7 +24,7 @@
             Forgot your password?
         </a>
         <button type="submit" class="flex bg-black text-white w-full justify-center items-center h-10 mt-9 hover:bg-gray-800 hover:border-none" @click="parameterCheck">Sign In</button>
-        <div class="flex mt-4 justify-center items-center text-gray-600">Don't have an account? <span><a @click="$router.push('/register')" class=" text-black hover:text-black hover:underline text-sm px-1" href="">Sign Up</a></span></div>
+        <div class="flex mt-4 justify-center items-center text-gray-600">Don't have an account? <span><a @click="$router.push('register')" class=" text-black hover:text-black hover:underline text-sm px-1" href="">Sign Up</a></span></div>
 
         <div class="flex w-[80%] items-start px-3 py-4 mt-4 rounded-md bg-gray-100 flex-col text-[14px] font-semibold">
             <p class="mb-2">Demo accounts:</p>
