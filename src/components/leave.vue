@@ -46,22 +46,24 @@
               <div class="flex w-full mt-4 text-[25px] font-bold">7</div>
             </div>
           </div>
-          <div class=" border p-4 w-full mb-4 rounded-md flex space-x-3">
-            <div class="flex items-center justify-between relative flex-1">
-              <input placeholder="Search leave requests..." class=" px-11 h-10 border w-full rounded-md" type="search" name="" id="">
-              <img class=" absolute left-2" src="./My Icons/search_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="">
-            </div>
-            <div class="flex w-[25%] items-center justify-between relative ">
-              <select class="w-full px-3 border h-10 rounded-md" name="" id="">
+        <div class=" flex-col border my-4 p-4 w-full mb-4 rounded-md flex space-y-3">
+          <div class="flex items-center justify-between relative flex-1">
+            <input placeholder="Search recognitions..." class=" px-11 h-10 border w-full rounded-md" type="search" name="" id="">
+            <img class=" absolute left-2" src="./My Icons/search_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="">
+          </div>
+          <div class="flex justify-between items-center w-full">
+            <div class="flex w-[47%] items-center justify-between relative ">
+              <select class="w-full border h-10 rounded-md" name="" id="">
                 <option value="">All Status</option>
               </select>
             </div>
-            <div class="flex w-[25%] items-center justify-between relative ">
-              <select class="w-full px-3 border h-10 rounded-md" name="" id="">
+            <div class="flex w-[47%] items-center justify-between relative ">
+              <select class="w-full border h-10 rounded-md" name="" id="">
                 <option value="">All Types</option>
               </select>
             </div>
           </div>
+        </div>
           <div class="flex flex-col w-full p-4 border rounded-md ">
             <div class="flex justify-start items-center w-full gap-x-3 mb-4">
               <div class="flex text-[13px] font-semibold bg-red-200 rounded-full text-red-700 px-2 py-[2px]">
